@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-size: cover;">
+    <div class="container">
+        <h2>Login Form</h2>
+        
+        <i class="fa-solid fa-envelope"></i>
+        <input type="text" placeholder="Enter email or phone number" id="mail"><br>
+
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Enter password" id="pass"><br>
+
+        <h3 id="display" style="color: green; display: none;">Successfully logged in!</h3>
+        <h3 id="display2" style="color: red; display: none;">Invalid login details.</h3>
+        
+        <button type="button" onclick="login()">Login</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
