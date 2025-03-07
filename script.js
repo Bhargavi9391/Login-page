@@ -12,8 +12,9 @@ function login() {
     success.style.display = 'block';
     setTimeout(() => {
         window.location.href = 'success.html';
-    }, 2000);
-    setTimeout(() => {
-        window.history.back();
+        setTimeout(() => {
+            window.history.back();
+        }, 2000);
+
     }, 2000);
 }
