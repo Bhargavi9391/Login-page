@@ -13,4 +13,7 @@ function login() {
     setTimeout(() => {
         window.location.href = 'success.html';
     }, 2000);
+    setTimeout(() => {
+        window.history.back();
+    }, 2000);
 }
