@@ -9,10 +9,6 @@ function login() {
         alert('Please enter your details.');
         return;
     }
-    if (!email.endsWith('@gmail.com')) {
-        alert('Please enter a valid Gmail address (example@gmail.com).');
-        return;
-    }
     success.style.display = 'block';
     setTimeout(() => {
         window.location.href = 'success.html';
